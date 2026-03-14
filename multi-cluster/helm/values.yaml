@@ -1,3 +1,5 @@
 replication: true
 replicas: 1
 serviceType: NodePort
+redis:
+  version: 8.6.1

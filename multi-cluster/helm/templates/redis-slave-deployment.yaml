@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: slave
-        image: redis
+        image: redis:{{ .Values.redis.version}}
         resources:
           requests:
             cpu: 100m
